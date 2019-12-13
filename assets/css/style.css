@@ -948,6 +948,7 @@ section .section-title{
 	background:#ffffff;
 }
 #what-we-do .card{
+  text-align: center;
 	padding: 1rem!important;
 	border: none;
 	margin-bottom:1rem;
@@ -980,7 +981,6 @@ section .section-title{
 }
 #what-we-do .card .card-block:before{
 	font-family: FontAwesome;
-    position: absolute;
     font-size: 39px;
     color: #007b5e;
     left: 0;
@@ -1011,4 +1011,8 @@ section .section-title{
 	-webkit-transition: .5s all ease;
 	-moz-transition: .5s all ease;
 	transition: .5s all ease;
+}
+
+.dummy{
+  height: 100vh;
 }
